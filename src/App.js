@@ -2,6 +2,7 @@ import React from 'react';
 import { Header, Segment, Button, Image, List } from 'semantic-ui-react';
 
 import './App.css';
+import axios from 'axios';
 
 function App() {
 	return (
