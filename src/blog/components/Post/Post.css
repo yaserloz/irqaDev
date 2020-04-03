@@ -8,21 +8,43 @@
 .blog-post{
   width: 50%;
   margin-right: 7%;
-  margin-bottom: 40px;
+
   margin-left: 7%;
   padding-bottom: 40px;
   border-bottom: 1px solid #d3d3d3;
   background-color: #fff;
   margin: 0 auto;
 
+  margin-bottom: 3em;
+
 }
 
 .blog-post-description{
+  color:#333;
 }
 
 .blog-post-date{
-  font-family: Merriweather, serif;
+  display: inline-block;
+  margin-right: 8px;
+  color: #969696;
+  font-size: 12px;
+  line-height: 125%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
 }
+
+.blog-post-author{
+  display: inline-block;
+  margin-right: 8px;
+  color: #969696;
+  font-size: 12px;
+  line-height: 125%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+}
+
 
 .blog-post-button{
   padding: 5px 12px;
