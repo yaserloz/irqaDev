@@ -1,0 +1,10 @@
+
+.headerWrapper{
+    position: relative !important;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    border-bottom: 1px solid #ddd !important;
+    background-color: #f0f0f0 !important;
+    text-align: center !important;
+    margin-bottom: 5em !important;
+}

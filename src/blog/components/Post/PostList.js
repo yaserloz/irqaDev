@@ -5,8 +5,8 @@ const PostList = ({posts}) => {
     return (
         <div>
              {
-                posts.length ? 
-                    
+                posts.length 
+                ?     
                 posts.map( post => {
                     console.log(post)
                             return <Post key={post.id}
