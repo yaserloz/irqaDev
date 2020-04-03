@@ -1,0 +1,15 @@
+.blog-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+.blog-post{
+  margin-right: 7%;
+  margin-bottom: 40px;
+  margin-left: 7%;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d3d3d3;
+  background-color: #fff;
+}
