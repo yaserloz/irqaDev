@@ -21,7 +21,7 @@ const Index = props => {
         <>
     <Header  as='h2' icon textAlign='center'>
       <Icon name='code' circular />
-      <Header.Content>Iraqi Dev</Header.Content>
+      <Header.Content>ALQAISI yasir</Header.Content>
     </Header>
 
 	

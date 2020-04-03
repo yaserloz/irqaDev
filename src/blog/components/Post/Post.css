@@ -6,10 +6,32 @@
   }
 
 .blog-post{
+  width: 50%;
   margin-right: 7%;
   margin-bottom: 40px;
   margin-left: 7%;
   padding-bottom: 40px;
   border-bottom: 1px solid #d3d3d3;
   background-color: #fff;
+  margin: 0 auto;
+
+}
+
+.blog-post-description{
+}
+
+.blog-post-date{
+  font-family: Merriweather, serif;
+}
+
+.blog-post-button{
+  padding: 5px 12px;
+  border: 1px solid #d3d3d3;
+  border-radius: 20px;
+  background-color: #fff;
+  -webkit-transition: border 200ms ease, color 200ms ease;
+  transition: border 200ms ease, color 200ms ease;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
 }

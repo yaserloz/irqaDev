@@ -4,9 +4,15 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p{
+  font-family: Merriweather, serif;
+
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+
 }

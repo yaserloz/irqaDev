@@ -12,6 +12,7 @@ const PostList = ({posts}) => {
                             return <Post key={post.id}
                              title={post.article_title}
                              date={post.article_date}
+                             author={post.article_author}
                             />
                         })
 
