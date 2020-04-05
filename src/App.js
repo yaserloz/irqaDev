@@ -1,11 +1,11 @@
 import React from 'react';
-import Index from './screens/Index'
+import Router from './Router'
 
 function App() {
 
 	return (
 		<>
-		<Index />
+		<Router />
 		</>
 	);
 }
