@@ -6,11 +6,13 @@ import Footer from '../../blog/components/Footer/Footer'
 import { Header, Icon } from 'semantic-ui-react';
 import Menu from '../../blog/components/Menu/Menu'
 import './Contact.css'
+import { Container, Row, Col  } from 'react-bootstrap';
 
 
 const Contact = props => {
     return (
         <>
+
             <BlogHeader>
                 <Header  as='h2' icon textAlign='center'>
                 <Icon name='code' circular />
@@ -19,13 +21,14 @@ const Contact = props => {
             <Menu page='contact' />
 
             </BlogHeader>
-            <div className='contact-page-content-wrapper'>
-                        <ContactForm />
-                        <Profile />
-            </div>
+            <Container>
+                <Row>
+                    <Col md={9}><ContactForm /></Col>
+                    <Col md={3}><Profile /></Col>
+                </Row>
 
+                </Container>
             <Footer />
-
         </>
     )
 }

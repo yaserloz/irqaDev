@@ -1,13 +1,13 @@
-.dropdown-wrapper {
+.menu-dropdown-wrapper {
     position: absolute;
     left: 20px;
     top: 20px;
 }
 
-.dropdown-menu {
+.menu-dropdown-menu {
     z-index: 1;
     padding: 9px 11px;
-    border: 1px solid #c9c9c9;
+    border: 1px solid #c9c9c9 ;
     border-radius: 5px;
     -webkit-transition: background-color 200ms ease;
     transition: background-color 200ms ease;
@@ -23,7 +23,7 @@
     padding-right: 40px;
 }
 
-dropdown-toggle, .w-dropdown-link {
+.dropdown-toggle, .w-dropdown-link {
     position: relative;
     vertical-align: top;
     text-decoration: none;
@@ -108,7 +108,7 @@ img {
     color: #333;
 }
 
-.dropdown-menu:hover{
+.menu-dropdown-menu:hover{
     background-color: #ddd;
     color: #333;
 }

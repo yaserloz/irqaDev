@@ -5,7 +5,8 @@
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 0 0 0 1px #ddd;
-    max-width: 220px;
+    min-width: 220px;
+    height: 100%;
 }
 
 .circle-profile {
