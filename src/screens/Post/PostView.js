@@ -5,7 +5,7 @@ import './PostView.css';
 import Footer from '../../blog/components/Footer/Footer'
 import OnePostHeader from '../../blog/components/OnePostHeader/OnePostHeader'
 import {sanitizeHtml} from 'sanitize-html'
-
+import { Link } from 'react-router-dom';
 
 // const defaultOptions = {
 //     allowedTags: [ 'b', 'i', 'em', 'strong', 'a' ],
@@ -54,6 +54,9 @@ const PostView = props => {
             }
            
             </ContentLayout>
+            <div class="button-wrapper">
+                <Link   to={`/`}><button className='button w-button'>←&nbsp;View all posts</button></Link>
+            </div>
             <Footer />
 
         </>

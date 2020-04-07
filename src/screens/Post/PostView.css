@@ -2,3 +2,42 @@
     width: 50%;
     margin: 0 auto;
 }
+
+.button-wrapper {
+    margin-top: 80px;
+    color: green;
+    text-align: center;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #ddd;
+    -webkit-transition: box-shadow 200ms ease;
+    transition: box-shadow 200ms ease;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.w-button {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color:transparent;
+    color: black;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.w-button:hover {
+    border: .1px solid black;
+}

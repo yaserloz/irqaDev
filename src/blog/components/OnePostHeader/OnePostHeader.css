@@ -1,0 +1,27 @@
+.post-info-wrapper {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+
+.post-info {
+    display: inline-block;
+    margin-right: 8px;
+    color: #969696;
+    font-size: 12px;
+    line-height: 125%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.post-info.when-link {
+    text-decoration: none;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+.post-info.when-link:hover {
+    color:#000;
+}

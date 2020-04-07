@@ -1,6 +1,8 @@
 import React from 'react'
 import { Header} from 'semantic-ui-react';
 import './OnePostHeader.css'
+import { Link } from 'react-router-dom';
+
 
 
 const months = ["January", "FEBRUARY", "MARCH","April", "MAY", "JUNE", "July", "August", "September", "October", "November", "December"];
@@ -12,6 +14,11 @@ const OnePostHeader = ({article_title, article_author, article_date}) => {
 
     return (
         <div className='headerWrapper'>
+            <div className="post-info-wrapper">
+                <Link   to={`/`}><button className='post-info when-link'>←&nbsp;view all posts</button></Link>
+            </div>
+            
+
             <Header  as='h2' icon textAlign='center'>
                 <Header.Content>{article_title}</Header.Content>
 
