@@ -24,7 +24,7 @@ const Index = props => {
                 <Icon name='code' circular />
                 <Header.Content>ALQAISI yasir</Header.Content>
                 </Header>
-            <Menu />
+            <Menu page="home"  />
             </BlogHeader>
             <ContentLayout>
             {

@@ -1,0 +1,6 @@
+.about-page-content-wrapper
+{
+ display: flex;
+ padding: 2em;
+ justify-content:space-evenly;
+}

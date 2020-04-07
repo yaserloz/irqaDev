@@ -1,8 +1,7 @@
 import React,  {useState} from 'react'
 import { Link } from 'react-router-dom';
 import './Menu.css'
-const Menu = props => {
-
+const Menu = ({page}) => {
     const [menuIsOpen, toggelMenu] = useState(false)
 
     const menuToggelHandler = event => {
@@ -16,9 +15,9 @@ const Menu = props => {
             </div>
 
             <nav className={`menu-list w-dropdown-list ${menuIsOpen ? 'w--open' : null}`}>
-                <Link className="home menu-link w-dropdown-link w--current"  to={'/'}>Home</Link>
-                <Link className="home menu-link w-dropdown-link w--current"  to={'/about'}>About</Link>
-                <Link className="home menu-link w-dropdown-link w--current"  to={'/contact'}>Contact</Link>
+                <Link className={`home menu-link w-dropdown-link ${page == 'home' ? 'w--current' : '' }`}  to={'/'}>Home</Link>
+                <Link className={`home menu-link w-dropdown-link ${page == 'about' ? 'w--current' : '' }`} to={'/about'}>About</Link>
+                <Link className={`home menu-link w-dropdown-link ${page == 'contact' ? 'w--current' : '' }`}  to={'/contact'}>Contact</Link>
             </nav>
         </div>
     )

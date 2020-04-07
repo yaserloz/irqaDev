@@ -16,15 +16,13 @@ const Contact = props => {
                 <Icon name='code' circular />
                 <Header.Content>ALQAISI yasir</Header.Content>
             </Header>
-            <Menu />
+            <Menu page='contact' />
 
             </BlogHeader>
             <div className='contact-page-content-wrapper'>
                         <ContactForm />
                         <Profile />
             </div>
-
-
 
             <Footer />
 
