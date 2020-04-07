@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const Footer = props => {
     return (
         <div>
-            <footer class="footer">
-                <div class="w-container">
-                    <div class="navigation-bar">
+            <footer className="footer">
+                <div className="w-container">
+                    <div className="navigation-bar">
 
 
                 <Link className="nav-link"  to={'/'}>Home</Link>

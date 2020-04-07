@@ -1,0 +1,37 @@
+.profile-content-wrapper
+{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #ddd;
+    max-width: 220px;
+}
+
+.circle-profile {
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-bottom: 28px;
+    margin-left: auto;
+    border-radius: 500px;
+}
+
+.sidebar-copy h1 {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 125%;
+}
+.sidebar-copy h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 125%;
+}
+
+.sidebar-copy p {
+    margin-bottom: 10px;
+    font-family: Merriweather, serif;
+    font-size: 12px;
+    font-weight: 400;
+}

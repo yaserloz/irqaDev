@@ -1,0 +1,56 @@
+.contact-form-wrapper
+{
+    display: flex;
+    flex-direction:column;
+    width: 60%;
+    margin: 2em;
+}
+
+.contact-form
+{
+    display: flex;
+    flex-direction:column;
+}
+
+.contact-form *
+{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.contact-form-wrapper p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Merriweather, serif;
+    line-height: 160%;
+    font-weight: 300;
+}
+
+.contact-form-wrapper h1 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+        font-size: 35px;
+        line-height: 40px;
+        font-weight: 700;
+
+}
+
+
+.contact-form textarea
+{
+    min-height: 200px;
+}
+
+
+.w-input, .w-select {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}

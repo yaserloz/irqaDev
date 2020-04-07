@@ -5,7 +5,6 @@ import axios from 'axios'
 import './Index.css';
 import { Header, Icon } from 'semantic-ui-react';
 import Menu from '../blog/components/Menu/Menu'
-
 import BlogHeader from '../blog/components/BlogHeader/BlogHeader'
 import Footer from '../blog/components/Footer/Footer'
 

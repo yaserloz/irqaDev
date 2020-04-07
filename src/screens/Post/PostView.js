@@ -4,7 +4,6 @@ import axios from 'axios'
 import './PostView.css';
 import Footer from '../../blog/components/Footer/Footer'
 import OnePostHeader from '../../blog/components/OnePostHeader/OnePostHeader'
-import {sanitizeHtml} from 'sanitize-html'
 import { Link } from 'react-router-dom';
 
 // const defaultOptions = {
