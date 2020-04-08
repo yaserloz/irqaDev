@@ -7,6 +7,8 @@ import { Header, Icon } from 'semantic-ui-react';
 import Menu from '../blog/components/Menu/Menu'
 import BlogHeader from '../blog/components/BlogHeader/BlogHeader'
 import Footer from '../blog/components/Footer/Footer'
+import { Container, Row, Col  } from 'react-bootstrap';
+
 
 const Index = props => {
     const [posts, setPosts] = useState([]);
@@ -26,16 +28,16 @@ const Index = props => {
                 </Header>
             <Menu page="home"  />
             </BlogHeader>
-            <ContentLayout>
+            <Container>
             {
             posts.length 
                 ?  
+                    
                     <PostIemList posts={posts} /> 
                 : 
                     null 
             }
-            
-            </ContentLayout>
+            </Container>
             <Footer />
         </>
     )
