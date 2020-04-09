@@ -9,6 +9,7 @@ import Footer from '../../blog/components/Footer/Footer'
 import { Header, Icon } from 'semantic-ui-react';
 import Menu from '../../blog/components/Menu/Menu'
 import Profile from '../../blog/components/Profile/Profile'
+import { Container, Row, Col  } from 'react-bootstrap';
 
 
 const Post = props => {
@@ -22,10 +23,12 @@ const Post = props => {
             <Menu page="about" />
 
             </BlogHeader>
-            <div className='about-page-content-wrapper'>
-                <AboutMe />
-                <Profile />
-            </div>
+            <Container>
+                <Row>
+                    <Col md={9}><AboutMe /></Col>
+                    <Col md={3}><Profile /></Col>
+                </Row>
+            </Container>
             <Footer />
         </>
     )

@@ -1,9 +1,10 @@
 .blog-footer {
+    margin-top:22px;
     padding-top: 29px;
     padding-bottom: 29px;
     border-top: 1px solid #ddd;
     background-color: #f0f0f0;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -24,9 +25,6 @@
 }
 
 .blog-footer-nav-link {
-    display: inline-block;
-    margin-right: 22px;
-    -webkit-transition: color 200ms ease;
     transition: color 200ms ease;
     color: #aaa;
     font-size: 12px;

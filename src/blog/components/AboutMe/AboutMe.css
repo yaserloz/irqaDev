@@ -1,8 +1,7 @@
 .about-me-content-wrapper{
     display: flex;
     flex-direction:column;
-    width: 60%;
-    margin: 2em;
+    margin-bottom: 2em;
 }
 
 .about-me-content-wrapper h1 {

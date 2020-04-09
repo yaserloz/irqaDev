@@ -8,8 +8,6 @@ const Profile = props => {
             <div class="sidebar-copy w-richtext">
                 <h1>Alqaisi Yasir</h1>
                 <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place.</p>
-                <h2>Something else here</h2>
-                <p>Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.&nbsp;</p>
             </div>
         </div>
     )
