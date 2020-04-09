@@ -1,8 +1,11 @@
-.footer {
+.blog-footer {
     padding-top: 29px;
     padding-bottom: 29px;
     border-top: 1px solid #ddd;
     background-color: #f0f0f0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .w-container {
@@ -20,7 +23,7 @@
     clear: both;
 }
 
-.nav-link {
+.blog-footer-nav-link {
     display: inline-block;
     margin-right: 22px;
     -webkit-transition: color 200ms ease;
@@ -33,13 +36,3 @@
     text-transform: uppercase;
 }
 
-.nav-link.float-right {
-    margin-right: 0px;
-    float: right;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-   }

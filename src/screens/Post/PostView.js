@@ -5,6 +5,7 @@ import './PostView.css';
 import Footer from '../../blog/components/Footer/Footer'
 import OnePostHeader from '../../blog/components/OnePostHeader/OnePostHeader'
 import { Link } from 'react-router-dom';
+import { Container, Row, Col  } from 'react-bootstrap';
 
 // const defaultOptions = {
 //     allowedTags: [ 'b', 'i', 'em', 'strong', 'a' ],
@@ -43,16 +44,19 @@ const PostView = props => {
     return (
         <>
             <OnePostHeader {...post} />
-            <ContentLayout>
-            {
-                post.article_text !== undefined
-                    ?
-                    <div className='post-text' dangerouslySetInnerHTML={{__html: post.article_text}} />
-                    :
-                    null
-            }
-           
-            </ContentLayout>
+            <Container>
+                <Row>
+                    <Col md="auto">
+                        {
+                            post.article_text !== undefined
+                                ?
+                                <div className='post-text' dangerouslySetInnerHTML={{__html: post.article_text}} />
+                                :
+                                null
+                        }
+                    </Col>
+                </Row>
+            </Container>
             <div class="button-wrapper">
                 <Link   to={`/`}><button className='button w-button'>←&nbsp;View all posts</button></Link>
             </div>
