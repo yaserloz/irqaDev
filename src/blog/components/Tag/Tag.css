@@ -1,0 +1,22 @@
+.s-tag
+{
+    align-content: center;
+    justify-content: center;
+    min-width: 0;
+    padding: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: .92307692rem;
+    line-height: 1.84615385;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-color: transparent;
+    background-color: #E1ECF4;
+    color: #2c5777;
+} 
+.m-1
+{
+    margin: 0.25rem !important;
+}
