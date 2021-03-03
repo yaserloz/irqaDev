@@ -18,7 +18,6 @@ const Router = props => {
                 <Route path="/about" exact component={About} />
                 <Route path="/post/:id" exact component={PostView} />
                 <Route path="/contact" exact component={Contact} />
-
             </Switch>
         </ReactRouter>
     )
