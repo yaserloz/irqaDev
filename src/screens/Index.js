@@ -14,7 +14,7 @@ const Index = props => {
     const [posts, setPosts] = useState([]);
 
     useEffect( ()=> {
-        axios.get('https://api.yaz-fr.com/api/posts').then(r => {
+        axios.get('https://api.yaz-fr.com/posts').then(r => {
             setPosts(r.data)
         });
     }, [])
