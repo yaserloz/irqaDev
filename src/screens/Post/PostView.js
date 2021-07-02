@@ -34,7 +34,7 @@ const PostView = props => {
     const [post, setPost] = useState({});
 
     useEffect( ()=> {
-        axios.get(`https://api.yaz-fr.com/api/posts/${props.match.params.id}`).then(r => {
+        axios.get(`https://api.yaz-fr.com/posts/${props.match.params.id}`).then(r => {
             setPost(r.data[0])
         });
     }, [])
